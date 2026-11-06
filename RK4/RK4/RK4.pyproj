@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>3e1deff3-5046-415e-a4e9-07559ef67dd4</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>RK4.py</StartupFile>
+    <StartupFile>neuron_astro_gui_stage47_astro_freq_25_35.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -23,7 +23,12 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="RK4.py" />
+    <Compile Include="neuron_astro_gui_stage47_astro_freq_25_35.py" />
+    <Compile Include="neuron_astro_analysis.py" />
+    <Compile Include="neuron_astro_integrators.py" />
+    <Compile Include="neuron_astro_model.py" />
+    <Compile Include="neuron_astro_plotting.py" />
+    <Compile Include="neuron_astro_storage.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

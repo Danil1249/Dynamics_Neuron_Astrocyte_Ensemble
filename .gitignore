@@ -1,0 +1,10 @@
+# Local IDE settings and caches
+.vs/
+__pycache__/
+*.py[cod]
+*.nbc
+*.nbi
+*.user
+
+# Duplicate of RK4/output/neuron_astro_dynamics.exe
+neuron_astro_dynamics.exe.txt
